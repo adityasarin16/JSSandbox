@@ -1,7 +1,7 @@
 //Log to console
 console.log("hello world");
-var greetings = "O M G";
 
+var greetings = "O M G";
 console.log(greetings);
 
 // To log in a table format
