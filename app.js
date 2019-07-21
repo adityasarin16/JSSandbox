@@ -1,21 +1,24 @@
 //Log to console
-console.log("hello world");
+var flag = false;
 
-var greetings = "O M G";
-console.log(greetings);
+if(flag){
+    console.log("hello world");
 
-// To log in a table format
-console.table({a:1, b:2});
+    var greetings = "O M G";
+    console.log(greetings);
 
-//WARN
-console.warn("warn is yellow");
+    // To log in a table format
+    console.table({a:1, b:2});
 
-//Time functionality: this would give you time it took to run the script
-console.time("time");
-console.log("this is the time taken");
-console.log("this is the time taken");
-console.log("this is the time taken");
-console.log("this is the time taken");
-console.log("this is the time taken");
-console.timeEnd("time");
+    //WARN
+    console.warn("warn is yellow");
 
+    //Time functionality: this would give you time it took to run the script
+    console.time("time");
+        console.log("this is the time taken");
+        console.log("this is the time taken");
+        console.log("this is the time taken");
+        console.log("this is the time taken");
+        console.log("this is the time taken");
+    console.timeEnd("time");
+}
